@@ -5,6 +5,7 @@
 
 -- Criar credencial com chave API OCI
 -- Chave privada sem o '-----BEGIN PRIVATE KEY----- -----END PRIVATE KEY-----'
+
 BEGIN
     DBMS_CLOUD.CREATE_CREDENTIAL(
         credential_name => 'OCI_CREDENTIAL',
